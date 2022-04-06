@@ -1,0 +1,135 @@
+<!-- Proyecto utilizado en la clase de Web Developer, los graficos fueron omitidos por el momento -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <!-- Keywords -->
+    <meta name="keywords" content="locker, smart, PUDO, casilleros, inteligentes, pick up, drop off, entrega">
+    <!-- Titulos -->
+    <title>Niu locker, Smart locker para recolección de paquetes</title>
+    <!-- Descripción -->
+    <meta name="description" content="Página de inicio donde se presenta para qué sirven y qué son los smart lockers">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/stylesTo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+  <div class="container ">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom ">
+          <a href="./index.html" class="d-flex align-items-center pb-3 mb-md-1 me-md-auto text-dark">
+            <svg class="bi me-3" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="fs-4 col-md-1"><img src="./img/lockerLogo.JPG" alt="este es el logo" width="200" height="100"></span>
+          </a>
+    
+          <div class="m-4">
+            <nav class="navbar navbar-expand-lg  bg-light">
+                <div class="container-fluid  justify-content-center ">
+                    <button type="button" class="navbar-toggler mb-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style="text-align: center;">
+                      <p class="icon1"></p><p class="icon1"></p><p class="icon1"></p>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse">
+                        <div class="navbar-nav text-center ">
+                          <li class="nav-item active1"><a href="./index.html"  class="nav-link active "  aria-current="page">Inicio</a></li>
+                          <li class="nav-item"><a href="./pages/servicios.html" class="nav-link"> Servicios</a></li>
+                          <li class="nav-item"><a href="./pages/acerca_de.html" class="nav-link">Acerca de</a></li>
+                          <li class="nav-item"><a href="./pages/contactanos.html" class="nav-link">Contáctanos</a></li>
+                          <li class="nav-item"><a href="./pages/blog.html" class="nav-link">Blog</a></li>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+          </div>        
+    </header>
+  </div>
+       
+    <br>
+    <br>
+
+    <div class="titleGrid ">  
+      <h1 class="text-center text-primary titleMovement">SMART LOCKERS PARA RECOLECCIÓN DE PAQUETERÍA</h1>
+    </div>
+    <br>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <section class="py-1 text-center container">
+        <div class="row py-lg-1 bg-image rounded">
+            <div class="col-lg-8 col-md-10 mx-auto text-light bg-dark text-center lh-base list-unstyled p-5 " style="background-image: url('./img/fondoLocker.jpg'); opacity: 0.85; background-position: top; background-size: 100%; border-radius: 5px;"  >
+                <h2><br><br><li>Recibe tus paquetes sin necesidad de estar en casa</li></h2><br><br>
+                <h2><li>Ya no esperes a los mensajeros, que tus paquetes esperen por ti</li></h2><br><br>
+                <h2><li>Con tu aplicación móvil de Niu Locker puedes conocer el código para retirar cuando desees</li></h2><br> 
+            </div>
+        
+            <div class="col-lg-4 col-md-6 col-8 mx-auto pt-2  rounded ">
+              <h1 style="background-image: linear-gradient(to bottom right, rgb(207, 212, 243) , rgb(33, 120, 235)); border-radius: 5px;" class="fw-light">
+                <img src="./img/lockerModelaje_.png" alt="Smart Locker personalizable" class="rounded align-middle sizeImg2"></h1>
+              <p class="lead text-muted"></p>
+            </div>
+          </div>
+      </section>
+
+    <br>
+        <h2 class="text-center">Cotiza tu locker inteligente</h2>
+    <br>
+        <h4 class="text-center">Escoge el numero de espacios que requieres por cada tamaño</h4>
+    <br>
+
+    <section class="px-5 ">
+    <div class="input-group input-group-sm mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Espacios pequeños</span>
+        <input type="text" name="espaciosPequenos" id="espaciosPequenos" placeholder="Ingrese un número mayor a 0 y menor a 20" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Espacios medianos</span>
+        <input type="text" name="espaciosMedianos" id="espaciosMedianos" placeholder="Ingrese un número mayor a 0 y menor a 20" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      
+      <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Espacios grandes</span>
+        <input type="text" name="espaciosGrandes" id="espaciosGrandes" placeholder="Ingrese un número mayor a 0 y menor a 20" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+      </div>
+    </section>
+
+    <br>
+    <section class="text-center">
+        <button type="submit" onclick="getData()"> Calcular </button>
+    </section>
+        <br>
+
+
+
+  <footer class="pt-1 my-md-3 pt-md-3 border-top text-center" style="background-color: lightgreen; border-radius: 4px">
+            <div class="row list-unstyled">
+              <h3 class="mt-3 mb-4 blog-1">Nuestras redes sociales</h3>
+                <div class="col-4 col-md col">
+                  <li class="btn btn-primary btn-sm"><a style="color: white;" href="https://www.facebook.com/"  target="_blank" class="nav-link active" aria-current="page">Facebook</a></li>
+                </div>
+              <div class="col-4 col-md">
+                  <li class="btn btn-primary btn-sm"><a style="color: white;" href="https://www.instagram.com/" target="_blank" class="nav-link active" aria-current="page">Instagram</a></li>
+              </div>
+              <div class="col-4 col-md">
+                 <li class="btn btn-primary btn-sm"><a style="color: white;" href="https://web.whatsapp.com/" target="_blank" class="nav-link active" aria-current="page">LinkedIn</a></li>
+              </div>
+              <div class="col-12 col-md ">
+                <img class="mb-2 text-center text-center mt-2" style="border-radius: 4px" src="./img/lockerLogo.JPG" alt="" width="80" height="40">
+                <small class="d-block mb-3 text-muted">&copy; 2022</small>
+              </div>
+            </div>
+   </footer>
+   <script src="./miarchivo.js "></script>
+</body>
+</html>
+
+
